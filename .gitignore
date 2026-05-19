@@ -5,6 +5,7 @@
 .pub-cache/
 .pub/
 build/
+!/build/web/
 
 
 android/**/generated/
