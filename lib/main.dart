@@ -15,7 +15,7 @@ class AppSize {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await initializeDateFormatting(null, null);
+  await initializeDateFormatting('en', null);
   await ClockSettings.instance.load();
   runApp(const MainApp());
 }
